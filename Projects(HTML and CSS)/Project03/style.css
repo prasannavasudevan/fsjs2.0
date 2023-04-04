@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;900&display=swap");
+
+body {
+  background-color: #2b2922;
+  font-family: "montserrat", sans-serif;
+}
+
+/* navbar */
+
+.navbar {
+  margin-top: 40px;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.list {
+  list-style: none;
+  margin-left: 300px;
+}
+
+.list-item {
+  display: inline;
+  float: left;
+  margin-left: 40px;
+  font-size: 20px;
+  color: gray;
+  text-align: center;
+}
+
+.first {
+  color: white;
+}
+
+.button {
+  padding: 15px 30px;
+  margin-left: 50px;
+  font-size: 20px;
+  background: transparent;
+  color: #655c2c;
+  border: 2px solid #655c2c;
+  border-radius: 12px;
+}
+
+.button:hover {
+  background-color: #655c2c;
+  color: #2b2922;
+  border: 2px solid #2b2922;
+  transition: ease 0.3s;
+  cursor: pointer;
+}
+
+/*container*/
+
+.container {
+  margin-top: 40px;
+}
+
+.main {
+  color: #ffffff;
+  float: left;
+  font-size: 80px;
+  margin-left: 100px;
+  width: 50%;
+}
+
+.sub {
+  float: right;
+  font-size: 22px;
+  width: 35%;
+  line-height: 1cm;
+  padding-top: 70px;
+  margin-right: 120px;
+  color: rgb(202, 202, 202);
+}
+
+.court {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 500px;
+  z-index: -1;
+}
+
+.court-image {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  margin-bottom: 120px;
+}
+
+/* Footer */
+
+footer {
+  /* background-color: #1f1f1f; */
+  position: relative;
+  margin-top: 66%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  height: 150px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+footer span img {
+  margin-right: 20px;
+}
+
+.first {
+  background-color: #39372d;
+}
+
+.second {
+  background-color: #a08f36;
+}
+
+.first img {
+  height: auto;
+  width: 70px;
+  padding: 33px;
+  filter: invert(33%) sepia(7%) saturate(3402%) hue-rotate(13deg)
+    brightness(95%) contrast(78%);
+}
+
+.second img {
+  height: auto;
+  width: 70px;
+  padding: 33px;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(226deg)
+    brightness(110%) contrast(100%);
+}
