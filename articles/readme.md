@@ -8,5 +8,5 @@
 <br/>
 4.[Flexbox: Simplify CSS Layouts with Flexible Box Model](https://web-server.hashnode.dev/flexbox-simplify-css-layouts-with-flexible-box-model)<br/>
 <br/>
-4.[CSS Positioning for Powerful Layouts](https://web-server.hashnode.dev/css-positioning-for-powerful-layouts)<br/>
+5.[CSS Positioning for Powerful Layouts](https://web-server.hashnode.dev/css-positioning-for-powerful-layouts)<br/>
 <br/>
