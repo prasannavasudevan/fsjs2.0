@@ -1,3 +1,7 @@
+**Question 3**
+
+**3. Explain what is execution context in detail with diagram**
+
 **There are three major components in the execution context:**
 
 _Variable Environment:_
