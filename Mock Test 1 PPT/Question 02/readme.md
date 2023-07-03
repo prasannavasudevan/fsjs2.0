@@ -11,34 +11,34 @@
 <body>
   <h1>Form Validation Example</h1>
   <form onsubmit="return validateForm()">
-    <label for="name">Name:</label>
-    <input type="text" id="name" required>
+    <label>Name:</label>
+    <input type="text" id="name">
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" required>
+    <label>Email:</label>
+    <input type="email" id="email">
 
-    <label for="phone">Phone:</label>
-    <input type="tel" id="phone" required>
+    <label>Phone:</label>
+    <input type="tel" id="phone">
 
-    <label for="password">Password:</label>
-    <input type="password" id="password" required>
+    <label>Password:</label>
+    <input type="password" id="password">
 
-    <label for="age">Age:</label>
-    <input type="number" id="age" required>
+    <label>Age:</label>
+    <input type="number" id="age">
 
-    <label for="gender">Gender:</label>
-    <select id="gender" required>
+    <label>Gender:</label>
+    <select id="gender">
       <option value="">Select</option>
       <option value="male">Male</option>
       <option value="female">Female</option>
       <option value="other">Other</option>
     </select>
 
-    <label for="date">Date:</label>
-    <input type="date" id="date" required>
+    <label>Date:</label>
+    <input type="date" id="date">
 
-    <label for="color">Color:</label>
-    <input type="color" id="color" required>
+    <label>Color:</label>
+    <input type="color" id="color">
 
     <input type="submit" value="Submit">
   </form>
@@ -54,7 +54,6 @@
       var date = document.getElementById("date").value;
       var color = document.getElementById("color").value;
 
-      // Perform basic validation
       if (name === "") {
         alert("Please enter your name.");
         return false;
