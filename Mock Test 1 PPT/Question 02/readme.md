@@ -6,12 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Form Validation Example</title>
-  <style>
-    .error {
-      color: red;
-    }
-  </style>
+  <title>Form Validation</title>
   <script>
     function validateForm() {
       // Get form field values
