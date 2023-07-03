@@ -1,4 +1,4 @@
-**To understand execution context, let's break it down into three main components:**
+**There are three major components in the execution context:**
 
 _Variable Environment:_
 The variable environment of an execution context contains all the variables and their corresponding values within the context. It includes function arguments, local variables, function declarations, and variable declarations. Each execution context has its own variable environment.
