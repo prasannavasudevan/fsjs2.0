@@ -10,6 +10,7 @@
 }
 ```
 
+
 ***Fixed position:*** Fixed positioning as the name suggests are fixed and does not move even when the page is scrolled. It is commonly used in the header and navbar sections.
 
 ```
