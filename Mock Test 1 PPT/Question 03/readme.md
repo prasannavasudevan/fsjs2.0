@@ -1,8 +1,8 @@
 **Question 3**
 
-**3. Explain what is execution context in detail with diagram**
+**3. Explain what is execution context in detail with diagram?**
 
-**There are three major components in the execution context:**
+***There are three major components in the execution context:***
 
 _Variable Environment:_
 The variable environment of an execution context contains all the variables and their corresponding values within the context. It includes function arguments, local variables, function declarations, and variable declarations. Each execution context has its own variable environment.
