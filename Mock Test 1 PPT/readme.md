@@ -4,3 +4,6 @@
 
 
 **2. Create a form with basic validation (name, email, phone number, password, age, gender, date, color picker)**
+
+
+**3. Explain what is execution context in detail with diagram**
