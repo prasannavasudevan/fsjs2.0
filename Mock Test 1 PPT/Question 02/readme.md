@@ -53,9 +53,6 @@
         return false;
       }
 
-      // Additional validation can be performed here
-      // ...
-
       // If all validation passes, the form can be submitted
       alert("Form submitted successfully!");
       return true;
