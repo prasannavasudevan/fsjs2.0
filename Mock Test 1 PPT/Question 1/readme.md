@@ -1,6 +1,6 @@
 **Question 1**
 
-**1.Explain all the CSS positions(static, fixed, sticky, relative, absolute) with one code example each**
+**1.Explain all the CSS positions(static, fixed, sticky, relative, absolute) with one code example each?**
 
 *Static positioning:* It is the default position value for the elements. These elements are independent of the top, right, bottom, left and the z-index properties and therefore not affected by it.
 
