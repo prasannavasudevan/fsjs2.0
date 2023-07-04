@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+    height: 80vh;
+    font-family: "robarto", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    width: 100%;
+}
+
+.btn-last{
+    border: 2px solid white;
+    margin: 5px;
+    margin-top: 20px;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+.last-para{
+    width: 80%;
+    margin: 5px 20px;
+    font-size: 14px;
+}
+
+.navbar-nav{
+    margin-right: 40px;
+}
+
+ul.navbar-nav{
+    margin-left: 50px;
+}
+
+.navbar{
+    margin: 30px;
+    padding-right: 50px;
+}
+
+.navbar-collapse{
+    margin-left: 10rem;
+}
+
+.nav-link{
+    font-size: 16px;
+    font-family: "robarto", sans-serif;
+}
+
+.a-item{
+    font-size: 12px;
+    font-family: "robarto", sans-serif;
+    text-decoration: none;   
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+.btn-lg {
+    padding: 5px 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    color: #1f1f1f;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.btn-sg {
+    padding: 5px 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgb(255, 232, 81);
+    color: #1f1f1f;
+    margin-right: 10px;
+}
+
+.list-item{
+    display: flex;
+    flex-direction: row;  
+}
+
+.main{
+    padding-top: 60px;
+    padding-left: 60px;
+    margin: 40px;
+    width: 40%;
+}
+
+.heading{
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+
+.para{
+    color: #1f1f1f;
+    width: 500px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 15px 15px;
+    background-color: rgb(255, 232, 81);
+    color: #1f1f1f;
+    border: 1px solid black;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.btn:hover{
+    background-color: rgb(74, 35, 109);;
+    color: #ffffff;
+    transition: 0.3s ease-in;
+
+}
+
+.lap{
+    z-index: -1;
+    position: absolute;
+    right: -1%;
+    top: 70px;
+    float: right;
+}
+
