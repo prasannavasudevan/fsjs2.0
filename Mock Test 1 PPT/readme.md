@@ -9,3 +9,6 @@
 **3. Explain what is execution context in detail with diagram**
 
 **4. Create a similar looking website.**
+
+
+**5. Implement a CSS grid layout to display a gallery of images in a grid format for design refer the image shown below, replace the empty boxed with actual images**
